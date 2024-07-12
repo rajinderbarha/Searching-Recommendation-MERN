@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar.js';
 import Footer from './components/Footer.js';
 import Home from './pages/Home.js';
-import ProductDetail from './pages/ProductDetail';
+import ProductDetail from './pages/ProductDetail.js';
 import Cart from './pages/Cart.js';
 import { SearchProvider } from './context/SearchContext.js';
 import Info from './pages/Info.js';

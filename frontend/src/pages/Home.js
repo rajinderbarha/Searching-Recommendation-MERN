@@ -33,7 +33,7 @@ const Home = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/products', {
+        const response = await axios.get('https://searching-recommendation-mern.onrender.com/products', {
           params: { page: currentPage, limit: 40, search: searchQuery }
         });
         setProducts(response.data.products);

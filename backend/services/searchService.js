@@ -1,8 +1,8 @@
 const natural = require('natural');
 const Fuse = require('fuse.js');
 const MongoClient = require('mongodb').MongoClient;
-const Product = require('../models/ProductModel');
-const synonyms = require('../utils/synonyms');
+const Product = require('../models/ProductModel.js');
+const synonyms = require('../utils/synonyms.js');
 
 let products = [];
 let fuse;

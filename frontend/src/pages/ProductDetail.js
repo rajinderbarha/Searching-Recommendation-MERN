@@ -90,7 +90,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { Carousel } from 'react-bootstrap';
-import ProductCard from '../components/ProductCard';
+import ProductCard from '../components/ProductCard.js';
 
 const ProductDetail = () => {
   const { id } = useParams();

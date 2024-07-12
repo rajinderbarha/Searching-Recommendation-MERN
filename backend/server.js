@@ -1,8 +1,8 @@
 const express = require('express');
-const connectDB = require('./config/db');
+const connectDB = require('./config/db.js');
 const cors = require('cors');
-const productRoutes = require('./routes/productRoutes');
-const searchService = require('./services/searchService');
+const productRoutes = require('./routes/productRoutes.js');
+const searchService = require('./services/searchService.js');
 
 const app = express();
 const port = process.env.PORT || 5000;

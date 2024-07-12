@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useContext, useRef } from 'react';
 import axios from 'axios';
 import { useNavigate, useLocation } from 'react-router-dom';
-import ProductCard from '../components/ProductCard';
-import { SearchContext } from '../context/SearchContext';
+import ProductCard from '../components/ProductCard.js';
+import { SearchContext } from '../context/SearchContext.js';
 
 const Home = () => {
   const { searchQuery, setSearchQuery } = useContext(SearchContext);

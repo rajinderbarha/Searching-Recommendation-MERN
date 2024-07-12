@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Home from './pages/Home';
+import Navbar from './components/Navbar.js';
+import Footer from './components/Footer.js';
+import Home from './pages/Home.js';
 import ProductDetail from './pages/ProductDetail';
-import Cart from './pages/Cart';
-import { SearchProvider } from './context/SearchContext';
-import Info from './pages/Info';
+import Cart from './pages/Cart.js';
+import { SearchProvider } from './context/SearchContext.js';
+import Info from './pages/Info.js';
 
 function App() {
   return (

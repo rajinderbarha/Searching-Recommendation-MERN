@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { SearchContext } from '../context/SearchContext';
+import { SearchContext } from '../context/SearchContext.js';
 
 const Navbar = () => {
   const { setSearchQuery } = useContext(SearchContext);
